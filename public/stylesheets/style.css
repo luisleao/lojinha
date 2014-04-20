@@ -73,6 +73,9 @@ button:hover {
 .text-right {
 	text-align: right;
 }
+.espacado {
+	margin-bottom: 5em;
+}
 
 #pixel {
 
