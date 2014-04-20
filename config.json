@@ -9,8 +9,8 @@
 		"client_id" : "AXZMXxB-LOFGqLdu0Z41ruYC4YU0Sn3gO5MU03NdnHAawtbjyrbrw7QQ41Bz",
 		"client_secret" : "EJzyrBCrzl3-VRqRQY0K95382_M-73ytbiBcTzUVuZmeF5I1F3MsNB9FvP31"
 	},
-	"return_url": "http://localhost:5000/:id/execute",
-	"cancel_url": "http://localhost:5000/:id/cancel",
+	"return_url": "http://lojinha.luisleao.com.br/:id/execute",
+	"cancel_url": "http://lojinha.luisleao.com.br/:id/cancel",
 	"session_secret": "SENHA_SECRETA_KSAHDJKASHDKSAH AS)@!#$#*(@(#@*(NKDSAHDKASJ",
 
 
