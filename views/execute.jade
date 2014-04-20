@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	- var payment_details = JSON.stringify(payment, null, 2);
+
+	h1 Pagamento realizado com sucesso!
+	p Entraremos em contato com você em breve para combinarmos o procedimento para entrega.
+
+	a(href='/')
+		button Voltar para a lojinha
+
+//		p= payment_details

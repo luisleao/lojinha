@@ -1,0 +1,43 @@
+{
+	"port" : 5000,
+	"app": {
+		"title": "Lojinha do Leão"
+	},
+	"api" : {
+		"host" : "api.sandbox.paypal.com",
+		"port" : "",
+		"client_id" : "AXZMXxB-LOFGqLdu0Z41ruYC4YU0Sn3gO5MU03NdnHAawtbjyrbrw7QQ41Bz",
+		"client_secret" : "EJzyrBCrzl3-VRqRQY0K95382_M-73ytbiBcTzUVuZmeF5I1F3MsNB9FvP31"
+	},
+	"return_url": "http://localhost:5000/:id/execute",
+	"cancel_url": "http://localhost:5000/:id/cancel",
+	"session_secret": "SENHA_SECRETA_KSAHDJKASHDKSAH AS)@!#$#*(@(#@*(NKDSAHDKASJ",
+
+
+	"products": {
+
+		"coletor-gertec-tc504": {
+			"price": 2000,
+			"currency": "BRL",
+			"title": "Coletor Gertec TC-504 WIFI",
+			"picture": "/images/gertec_tc504.png",
+			"description": "Pouco uso. <br/>Apenas para montagem em feira durante dois dias. <br/>Na caixa e com nota fiscal original."
+		},
+		"chromebook-pixel": {
+			"price": 2500,
+			"currency": "BRL",
+			"title": "Chromebook Pixel",
+			"picture": "http://3.bp.blogspot.com/-3aRqyhNsfkU/USZgcEIX9II/AAAAAAAAAuw/U8ScLDBrMIs/s1000/two_arrows_2.jpg",
+			"description": "Modelo apenas com wifi, usado. <br/>Possui rachadura na parte inferior direita da tela, mas que não afeta o touch do restante da tela"
+		}
+
+	},
+
+	"sendgrid": {
+		"sendgrid_user": "gdgsp@gdgsp.org",
+		"sendgrid_key": "gdgsp@gdgsp.org",
+		"email_from": "lojinha@luisleao.com.br",
+		"email_to": "luis.leao@gmail.com"
+
+	}
+}

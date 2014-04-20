@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
+
+body {
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+  /*font: 14px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+
+  background-color: rgb(254, 252, 253);
+  -webkit-font-smoothing: antialiased;
+  font-size: 13pt;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(50, 50, 50);
+
+
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+input {
+	display: block;
+	width: 250px;
+	margin-bottom: 4px;
+}
+
+button {
+	width: 254px;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	padding: 8px 16px 8px 16px;
+	color: #fff;
+	background: #003265;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid transparent;
+	display: block;
+	margin-left: -1px;
+}
+
+button:hover {
+	color: #000;
+	background: transparent;
+	border: 1px solid black;
+}
+
+.ribbon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+
+#paypal, #creditcard {
+	float: left;
+}
+
+#creditcard {
+	margin-left: 40px;
+}
+
+
+
+.center {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.text-right {
+	text-align: right;
+}
+
+#pixel {
+
+}
+
+.prod_picture {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url(http://3.bp.blogspot.com/-3aRqyhNsfkU/USZgcEIX9II/AAAAAAAAAuw/U8ScLDBrMIs/s1000/two_arrows_2.jpg) no-repeat center center fixed;;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+*/
+
+p {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+}
+
+h1, h2 {
+	font-size: 4em;
+	margin: 0
+}
+
+h1 {
+	font-weight: 300;
+}
+h2 {
+	font-weight: 100;
+}
