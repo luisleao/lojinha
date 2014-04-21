@@ -2,9 +2,7 @@ extends layout
 
 block content
 	h1 Ocorreu um erro ao realizar seu pedido ='(
-	- var code = "Código do Erro: " + error.httpStatusCode;
 	- var description = JSON.stringify(error, null, 2);
-	h2= code
 	pre
 		p= description
 	a(href='/')

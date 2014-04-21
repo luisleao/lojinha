@@ -7,8 +7,8 @@ block content
 	- else if (product.currency === "USD")
 		- currency = "US$"
 
-	h1 Pagamento realizado com sucesso!
-	h2= payment_details.FIRSTNAME
+	h1 Pagamento realizado com sucesso para
+	h2= payment_details.FIRSTNAME + "!"
 	p Entraremos em contato com você em breve para combinarmos o procedimento para entrega.
 
 	img.prod_picture(src=product.picture)

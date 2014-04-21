@@ -20,6 +20,7 @@
     "body-parser": "*",
     "method-override": "*",
     "paypal-rest-sdk": "^0.8.0",
-    "sendgrid-nodejs": "0.1.0-2"
+    "sendgrid-nodejs": "0.1.0-2",
+    "paypal-ec": "^0.2.6"
   }
 }

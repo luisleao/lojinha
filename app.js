@@ -55,6 +55,7 @@ if ('development' === app.get('env')) {
 app.get('/', routes.index);
 app.get('/:id/create', routes.create);
 app.get('/:id/execute', routes.execute);
+app.get('/:id/status', routes.status);
 app.get('/:id/cancel', routes.cancel);
 
 http.createServer(app).listen(app.get('port'), function () {

@@ -8,9 +8,9 @@ var SendGrid;
 
 
 
-exports.send_payment = function(product, payment){
+exports.send_payment = function(product, payment_result, payment_details){
 
-	var body = "<pre>"+syntaxHighlight(product)+"\n\n\n\n"+syntaxHighlight(payment)+"</pre>";
+	var body = "<pre>"+syntaxHighlight(product)+"\n\n\n\n"+syntaxHighlight(payment_result)+"\n\n\n\n"+syntaxHighlight(payment_details)+"</pre>";
 
 	this.send_email(sendgrid_config.email_to, "[LOJINHA] " + product.title + " comprado!", body, true);
 
@@ -49,14 +49,12 @@ exports.send_email = function (to, subject, body, body_is_html) {
 
 
 	var msg = new sendgrid.Email(new_message);
-
-	msg.addTo(to);
+		msg.addTo(to);
 	
 	SendGrid.send(msg, function(err, result) {
 		console.log("SENDGRID RESULT ");
 		console.log(err);
 		console.log(result);
-
 	});
 
 }
