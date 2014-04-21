@@ -60,7 +60,7 @@ exports.create = function (req, res, next) {
 
 	var params = getProductParams(id_product);
 		params.METHOD = "SetExpressCheckout";
-		params.user_action = "commit";
+		params.USERACTION = "COMMIT";
 
 
 	ec.set( params, function ( error, data ){
