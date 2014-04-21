@@ -42,6 +42,7 @@ var getProductParams = function(id_product) {
 		L_PAYMENTREQUEST_0_AMT0          : product.price,
 		L_PAYMENTREQUEST_0_QTY0          : '1'
 
+
 	}
 
 }
@@ -59,6 +60,8 @@ exports.create = function (req, res, next) {
 
 	var params = getProductParams(id_product);
 		params.METHOD = "SetExpressCheckout";
+		params.user_action = "commit";
+
 
 	ec.set( params, function ( error, data ){
 		console.log(error);
