@@ -31,7 +31,7 @@ var getProductParams = function(id_product) {
 		PAYMENTREQUEST_0_DESC            : product.title,
 
 		NOSHIPPING                       : '1',
-		LOCALCODE                        : 'pt_BR',
+		LOCALECODE                        : 'BR',
 		HDRIMG                           : config.app.hdrimg,
 		BRANDNAME                        : config.app.title,
 
