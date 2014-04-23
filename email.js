@@ -18,7 +18,7 @@ exports.send_payment = function(product, payment_result, payment_details){
 
 exports.init = function (c) {
 	sendgrid_config = c;
-	SendGrid = new sendgrid.SendGrid(sendgrid_config.sendgrid_user, sendgrid_config.sendgrid_key);
+	SendGrid = new sendgrid.SendGrid(process.env.SENDGRID_USER, process.env.SENDGRID_KEY);
 };
 
 

@@ -18,6 +18,7 @@
 	"return_url": "http://lojinha.luisleao.com.br/:id/execute",
 	"cancel_url": "http://lojinha.luisleao.com.br/:id/cancel",
 	
+
 	"session_secret": "[TYPE_YOUR_SESSION_SECRET_HERE]",
 
 	"products": {
@@ -42,8 +43,8 @@
 	},
 
 	"sendgrid": {
-		"sendgrid_user": "[process.env.SENDGRID_USER]",
-		"sendgrid_key": "[process.env.SENDGRID_KEY]",
+		"sendgrid_user": "gdgsp@gdgsp.org",
+		"sendgrid_key": "gdgsp@gdgsp.org",
 		"email_from": "lojinha@luisleao.com.br",
 		"email_to": "luis.leao@gmail.com"
 	}
